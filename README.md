@@ -5,6 +5,9 @@ v-1.4.x: [![Build Status](https://travis-ci.org/x-stream/xstream.svg?branch=v-1.
 # XStream
 _Java to XML Serialization, and back again_
 
+## Modification
+Removed offending parts for JDK9+
+
 ## Binaries
 All binary artifacts are bundled in the -bin archive.  It includes
 the XStream jars and any other library used at build time, or
@@ -26,4 +29,3 @@ The complete source for XStream is bundled in the -src archive.  This includes:
 * Maven Build Files [pom.xml]
 * Hibernate Module [xstream-hibernate]
 * Website [xstream-distribution]
-
